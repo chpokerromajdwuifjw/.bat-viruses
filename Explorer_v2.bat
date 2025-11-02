@@ -32,5 +32,5 @@ echo     Start-Sleep -Seconds 5
 echo }
 )
 
-powershell -WindowStyle Hodden -NoProfile -ExecutionPolicy Bypass -File "%PS_FILE%"
+powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%PS_FILE%"
 pause
